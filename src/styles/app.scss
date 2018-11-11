@@ -1,0 +1,112 @@
+.carousel {
+  margin-bottom: 4rem !important;
+}
+
+.text-left{
+  text-align: center !important;
+}
+
+.img-fluid {
+  max-width: 90%;
+  border-radius: 150px;
+}
+
+.login {
+  margin-top: 50px;
+}
+
+.shadow-textarea textarea.form-control::placeholder {
+  font-weight: 300;
+}
+.shadow-textarea textarea.form-control {
+  padding-left: 0.8rem;
+}
+
+.input-group{
+  margin-left: 40px;
+  width: 90%;
+  height: 100px;
+}
+
+.carousel-item > img {
+  height: 500px;
+  width: 100%;
+}
+
+.input-group>.form-control:not(:last-child){
+  height: 100px;
+}
+
+.form-control-lg{
+  position: absolute;
+  text-align: center;
+  overflow: hidden;
+  opacity: 0;
+  cursor: text;
+}
+
+.cover__upload {
+  img {
+    cursor: pointer;
+    position: absolute;
+    top: 0%;
+  }
+
+  button {
+    position: relative;
+  }
+
+  input[type='file'] {
+    cursor: pointer;
+    width: 50px;
+    overflow: hidden;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 50px;
+    opacity: 0;
+  }
+}
+
+.button__upload {
+  button {
+    position: relative;
+  }
+
+  input[type='file'] {
+    cursor: pointer;
+    max-width: 150px;
+    overflow: hidden;
+    position: absolute;
+    top: 5%;
+    left: 40%;
+    height: 200px;
+    opacity: 0;
+  }
+}
+
+.button__upload {
+  .link {
+    padding-top: 12px;
+    padding-right: 30px;
+  }
+
+  button {
+    width: 60%;
+    font-size: 15px;
+    min-height: 48px;
+
+    @media (max-width: 350px) {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  .carousel-item > img{
+    height: 15rem;
+  }
+  .input-group{
+    margin-left: 20px;
+  }
+}
